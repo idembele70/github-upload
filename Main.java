@@ -12,10 +12,10 @@ class Main {
       int nb2 = 0;
       String strOperateur;
       String OperateurN2;
-      final String QUESTION = "\nVoulez-Vous recommencer ?";
+      final String QUESTION = "\n Veux-tu effectuer une nouvelle opération ? [On] ";
       final String END_MESSAGE = "La calculatrice à bien été fermée !";
 
-    while (!userReponse.equals("non")) {
+    while (!userReponse.equals("n")) {
 
       final String APP_TITLE = "\n" + "------------\n" + "CALCULATRICE" + "\n------------";
       try{
@@ -84,8 +84,9 @@ class Main {
           }
         }
       }
-      System.out.print(QUESTION);
+      System.out.println(QUESTION);
       userReponse = sc.nextLine();
+     
     tryOperation.close();
 }
 catch(Exception exception){
