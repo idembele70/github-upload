@@ -1,6 +1,6 @@
-import java.util.Scanner;
 
-class App {
+import java.util.Scanner;
+class calc_retry {
   public static void main(String[] args) {
     // DECLARATIONS
     final String APP_TITLE =  "------------\n" +
