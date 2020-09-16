@@ -84,6 +84,5 @@ class Main {
       }
     tryOperation.close();
     sc.close();
+}
   }
-  }
-

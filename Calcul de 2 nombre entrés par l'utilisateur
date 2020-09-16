@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+class App {
+  public static void main(String[] args) {
+    // DECLARATIONS
+    final String APP_TITLE =  "------------\n" +
+                              "CALCULATRICE" +
+                              "\n------------";
+    Scanner sc = new Scanner(System.in);
+    int nb1 = 0, nb2 = 0;
+    
+    // MAIN CODE 
+    System.out.println(APP_TITLE);
+
+    System.out.print("1er nombre: ");
+    nb1 = sc.nextInt();
+
+    System.out.print("2ème nombre: ");
+    nb2 = sc.nextInt();
+
+    System.out.println("Résultat de l'opération: " + (nb1 + nb2));
+
+    // FINAL CODE
+    sc.close();
+  }
+}
